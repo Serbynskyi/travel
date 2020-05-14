@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo"><img src="images/logo.png"></div>
+        <div id="nav">
+            <ul>
+                <li><a href="">Main</a></li>
+                <li><a href="">Travel</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="main">
+        <section class="content">
+            <div class="city">
+                <div class="cityPhoto" style="background-image: url(images/budapest.jpg)"></div>
+                <div class="cityDescription">
+                    <h3>Budapest</h3>
+                    <p>Budapest is the capital and the most populous city of Hungary.</p>
+                </div>
+            </div>
+            <div class="city">
+                <div class="cityPhoto" style="background-image: url(images/krakow.jpg)"></div>
+                <div class="cityDescription">
+                    <h3>Kraków</h3>
+                    <p>Kraków is the one of the oldest cities in Poland.</p>
+                </div>
+            </div>
+            <div class="city">
+                <div class="cityPhoto" style="background-image: url(images/prague.jpg)"></div>
+                <div class="cityDescription">
+                    <h3>Prague</h3>
+                    <p>Prague is a political, cultural and economic centre of central Europe complete with a rich history.</p>
+                </div>
+            </div>
+            <div class="city">
+                <div class="cityPhoto" style="background-image: url(images/lviv.webp)"></div>
+                <div class="cityDescription">
+                    <h3>Lviv</h3>
+                    <p>Lviv  is the largest city in western Ukraine.</p>
+                </div>
+            </div>
+            <div class="city">
+                <div class="cityPhoto" style="background-image: url(images/kosice.jpg)"></div>
+                <div class="cityDescription">
+                    <h3>Košice</h3>
+                    <p>Košice is the largest city in eastern Slovakia.</p>
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <div id="map"></div>
+        </section>
+    </section>
+
+    <script src="scripts/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBubuTxoKpftFjbr53yXbGfMEyrPMeUisw&callback=initMap" async defer></script>
+
+</body>
+</html>
